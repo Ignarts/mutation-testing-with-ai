@@ -6,6 +6,7 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "mutation": "stryker run",
+    "mutation:demo": "stryker run stryker.demo.json",
     "kill-survivors": "ts-node scripts/kill-survivors.ts"
   },
   "keywords": [],

@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+  "packageManager": "npm",
+  "testRunner": "jest",
+  "jest": {
+    "configFile": "jest.config.demo.js"
+  },
+  "checkers": ["typescript"],
+  "tsconfigFile": "tsconfig.stryker.json",
+  "mutate": ["src/**/*.ts"],
+  "thresholds": {
+    "high": 80,
+    "low": 60,
+    "break": 0
+  },
+  "reporters": ["html", "json", "progress"],
+  "jsonReporter": {
+    "fileName": "reports/mutation/mutation.json"
+  },
+  "htmlReporter": {
+    "fileName": "reports/mutation/index.html"
+  },
+  "tempDirName": ".stryker-tmp",
+  "cleanTempDir": true
+}
