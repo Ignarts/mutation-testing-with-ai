@@ -267,6 +267,6 @@ O directamente: `npm run kill-survivors`.
 - [StrykerJS](https://stryker-mutator.io)
 - [LLMorpheus](https://github.com/githubnext/llmorpheus)
 - [Paper Meta ACH — mutation testing a escala](https://arxiv.org/abs/2501.12862)
+- [`tests/transferValidator.killers.test.ts`](tests/transferValidator.killers.test.ts) — tests killer
 - [`src/transferValidator.ts`](src/transferValidator.ts) — código bajo test
 - [`tests/transferValidator.test.ts`](tests/transferValidator.test.ts) — suite inicial
-- [`tests/transferValidator.killers.test.ts`](tests/transferValidator.killers.test.ts) — tests killer
